@@ -12,7 +12,7 @@ and open the template in the editor.
         <script src="js/libs/three.js/three.js"></script>    
     </head>
     <body>
-        <div>
+        <div id="renderer01">
             <script>
 
                 var scene, camera, renderer;
@@ -50,7 +50,7 @@ and open the template in the editor.
                     renderer = new THREE.WebGLRenderer();
                     renderer.setSize(window.innerWidth, window.innerHeight);
 
-                    document.body.appendChild(renderer.domElement);
+                    document.getElementById('renderer01').appendChild(renderer.domElement);
 
                 }
 
