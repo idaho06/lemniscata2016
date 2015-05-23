@@ -1,0 +1,9 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright (C) César Rodríguez Moreno, AKA Idaho
+${licensePrefix}Thanks go to Rx, Palo, MadJ0ker, DarkHeavy, Ikky, 
+${licensePrefix}The Aberred Crew and all you know who.
+<#if licenseLast??>
+${licenseLast}
+</#if>
