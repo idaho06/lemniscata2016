@@ -5,13 +5,16 @@
  */
 
 
+/* global mesh, renderer, camera, scene */
+
 function animate() {
 
     requestAnimationFrame(animate);
 
-    mesh.rotation.x += 0.01;
-    mesh.rotation.y += 0.02;
-
+    if (typeof mesh !== 'undefined') {
+        mesh.rotation.x += 0.01;
+        mesh.rotation.y += 0.02;
+    }
     render();
 
 }
