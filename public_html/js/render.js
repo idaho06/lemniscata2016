@@ -12,8 +12,8 @@ function animate() {
     requestAnimationFrame(animate);
 
     if (typeof mesh !== 'undefined') {
-        mesh.rotation.x += 0.01;
-        mesh.rotation.y += 0.02;
+        mesh.rotation.x += 0.002;
+        mesh.rotation.y += 0.004;
     }
     render();
 
