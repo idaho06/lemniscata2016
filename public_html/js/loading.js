@@ -27,7 +27,7 @@ function loading() {
 
     // camera creation
     camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
-    camera.position.z = 3;
+    camera.position.z = 25;
 
 //    // Object creation
     //
@@ -62,10 +62,10 @@ function loading() {
     scene.add(new THREE.AmbientLight(0x111111));
 
     // light creation
-    light = new THREE.PointLight(0xffffff, 2, 10, 2);
-    light.position.x = 3;
-    light.position.y = 4;
-    light.position.z = 4;
+    light = new THREE.PointLight(0xffffff, 1, 100, 2);
+    light.position.x = 25;
+    light.position.y = 30;
+    light.position.z = 30;
 
     // Light added to the scene
     scene.add(light);
