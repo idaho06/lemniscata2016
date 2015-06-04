@@ -27,7 +27,7 @@ function loading() {
 
     // camera creation
     camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
-    camera.position.z = 25;
+    camera.position.z = 15;
 
 //    // Object creation
     //

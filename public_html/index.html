@@ -11,15 +11,32 @@ The Aberred Crew and all you know who.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {
-                font-family: Monospace;
+                font-family: sans-serif;
                 background-color: #ffffff;
-                color: #fff;
+                color: #000000;
                 margin: 0px;
                 overflow: hidden;
+            }
+            @font-face {
+                font-family: CooperHewittThin;
+                src: url(fonts/CooperHewitt-Thin.otf);
+            }
+            #title {
+                color: #000000;
+                font-family: CooperHewittThin;
+                font-size: 72px;
+                position: fixed;
+                top: 15%;
+                width: 100%;
+                text-align: center;
+                cursor: default;
+                visibility: visible;
+                text-shadow: 2px 2px 2px #CFCFCF; 
             }
         </style>
     </head>
     <body id="renderer01">
+        <div id="title">lemniscata.com</div>
         <script src="js/libs/three.js/three.js"></script>
         <script src="js/loading.js"></script>
         <script src="js/init.js"></script>
